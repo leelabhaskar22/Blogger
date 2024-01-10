@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    gap:22px;
+    margin: 12px;
+    cursor: pointer;
+}
+hr{
+    margin: 8px;
+    background-color: rgb(18, 96, 253);
+    height: 2px;
+}
+
+

@@ -1,0 +1,44 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
+h2{
+    color: rgb(18, 96, 253);
+    font-weight: bold;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 22px;
+    background-color: #fff;
+}
+.profile .pic img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+.profile .links{
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    align-items: center;
+}
+.profile .links {
+    font-size: 20px;
+}
+.wishlist{
+    position: relative;
+}
+.wishlist p {
+    position: absolute;
+    top: -3px;
+    font-size: 8px;
+    background-color: red;
+    border-radius: 50%;
+    left: 10px;
+    padding: 2px 5px;
+    color: #fff;
+}

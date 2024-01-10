@@ -1,0 +1,8 @@
+body{
+    background-color: #fff;
+}
+.forcontainer{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
